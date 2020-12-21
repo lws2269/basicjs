@@ -18,6 +18,7 @@ body {
     background-color: rgba(0, 0, 0, 0);
     margin-bottom: 20px;
     border-bottom: 1px solid white;
+    color: white;
 }
 .js-form input::placeholder,
 .js-toDoForm input::placeholder {
@@ -26,6 +27,11 @@ body {
 }
 .btn {
     cursor: pointer;
+}
+button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid white;
 }
 .clicked {
     color: #7f8c8d;
@@ -40,7 +46,6 @@ li {
 .greetings {
     display: none;
     font-size: 25px;
-    border-bottom: 1px solid white;
 }
 .showing {
     display: block;
